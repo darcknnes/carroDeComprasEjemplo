@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Bienvenido a su compra Online';
+  title = 'Bienvenido a su nueva compra Online';
 }
