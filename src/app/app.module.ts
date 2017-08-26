@@ -4,10 +4,15 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './components/main/app.component';
+import { FormularioProductoComponent } from './Components/formulario-producto/formulario-producto.component';
+import { ListadoProductosComponent } from './Components/listar-productos/listar-productos.component';
+
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FormularioProductoComponent,
+    ListadoProductosComponent
   ],
   imports: [
     BrowserModule,

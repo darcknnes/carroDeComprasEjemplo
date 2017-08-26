@@ -1,0 +1,38 @@
+<form method="POST" class="form-horizontal" rol="form" (ngSubmit)="submit()" #ListaCompraForm="ngForm">
+    
+    <div class="form-group">
+        <label for="txtNomProducto" class="col-md-2 control-label">Nombre producto</label>
+        <div class="col-md-10">
+            <input class="form-control" type="text" name="txtNomProducto" id="txtNomProducto" [(ngModel)]="model_entrada.nom_producto">
+        </div>        
+    </div>
+
+    <div class="form-group">
+        <label for="txtPrecio" class="col-lg-2 control-label">Precio producto</label>
+        <div class="col-lg-10">
+            <input class="form-control" type="number" name="txtPrecio" id="txtPrecio" [(ngModel)]="model_entrada.precio">
+        </div>        
+    </div>
+
+    <div class="form-group">
+        <label for="txtUnidades" class="col-lg-2 control-label">Unidades del producto</label>
+        <div class="col-lg-10">
+            <input class="form-control"  type="number" name="txtUnidades" id="txtUnidades" [(ngModel)]="model_entrada.unidades">
+        </div>        
+    </div>
+
+    <div class="form-group">
+        <label for="txtdescProducto" class="col-lg-2 control-label">Descripción producto</label>
+        <div class="col-lg-10">
+            <input class="form-control" type="text" name="txtdescProducto" id="txtdescProducto" [(ngModel)]="model_entrada.desc_producto">
+        </div>        
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-10 col-md-offset-2">
+            <button type="submit" class="btn btn-primary">Agregar</button>
+            
+        </div>
+    </div>
+
+</form>
